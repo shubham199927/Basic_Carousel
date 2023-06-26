@@ -1,0 +1,70 @@
+*{
+    box-sizing: content-box;
+    padding: 0%;
+    margin: 0;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+.head{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    background-color: azure;
+}
+.box{
+
+    background-color: azure;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 0% 40%;
+  
+}
+.review{
+    height: 450px;
+    width: fit-content;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 8px 8px 2px gray;
+    background-color: blanchedalmond;
+    
+}
+.review img{
+    width: 60%;
+    border-radius: 50%;
+    -webkit-user-drag: none;
+}
+.review h3{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.review p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    gap:10px
+}
+
+.nav img{
+  
+    width: 70px;
+    height: 70px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.nav img:hover{
+    width: 75px;
+    height: 75px;
+}
